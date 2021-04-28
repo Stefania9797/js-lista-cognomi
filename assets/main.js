@@ -10,4 +10,5 @@ for (var i = 0; i < lastNameList.length; i++) {
     console.log(lastNameList[i]);
 }
 //4. scrivi anche la posizione "umana" (partendo da 1) della lista in cui il nuovo utente si trova
-//var position = (lastNameList.indexOf(userLastName) + 1 );
+var position = (lastNameList.indexOf(userLastName) + 1 );
+console.log(userLastName + " si trova in "+position+"° posizione");
